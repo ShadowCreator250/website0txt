@@ -1,0 +1,75 @@
+/* text decoration and formating */
+/* TODO: */
+/* https://www.w3schools.com/css/css_text.asp */
+.TODO {
+  text-decoration-line: underline, overline, line-through;
+  text-decoration-color: red;
+  text-decoration-style: solid, wavy, dotted, dashed, double;
+
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: none;
+
+  font-family: cursive;
+  font-family: fantasy;
+  font-family: monospace;
+  font-family: sans-serif;
+  font-family: serif;
+
+  font-variant: small-caps;
+  font-variant: normal;
+}
+@font-face {
+  font-family: "meine Beispielschrift";
+  src: url("examplefont.eot");
+}
+/* text size, weight and line hight */
+.todo2 {
+  font-size: 1em;
+  font-weight: normal;
+  font-weight: bold;
+  line-height: normal;
+  line-height: 1.2em;
+}
+/* text position*/
+.todo3 {
+  text-indent: 2em;
+  text-indent: -2em;
+
+  text-align: left;
+  text-align: center;
+  text-align: right;
+  text-align: justify;
+}
+
+/* code blocks*/
+.cb {
+  background: rgb(198, 198, 198);
+  background-color: rgb(198, 198, 198);
+  padding: 2px 5px;
+}
+
+/* colors */
+
+/*opacities*/
+.o-50 {
+   opacity: 0.5;
+}
+
+/* bg-colors */
+
+/* element possition */
+.todo4 {
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/* floats */
+.todo5 {
+  clear: both;
+  float: left;
+  float: right;
+}
+
+/* borders */
