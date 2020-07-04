@@ -58,14 +58,13 @@ function insertText(file_name, outputAreaID, leave_content) {
 					// Step 3: The Outputter:
 
 					var outputArea = document.getElementById(outputAreaID);
-					var outputText = "";
-					outputText = outputArea.innerHTML;
-					/**/
+					var outputAreaText = "";
+					outputAreaText = outputArea.innerHTML;
 					if (leave_content === true) {
-						outputArea.innerHTML = outputText + txt;
+						outputArea.innerHTML = outputAreaText + txt;
 					} else {
 						outputArea.innerHTML = txt;
-					};
+					}
 
 
 
